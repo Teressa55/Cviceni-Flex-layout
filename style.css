@@ -16,3 +16,19 @@ body {
 
 /* ------------- pod čáru přijdou tvé styly ------------- */
 
+
+.kontejner{
+	display: flex;
+}
+.hlavni{
+	flex-grow: 1;
+}
+.levy{
+	flex-shrink: 0;
+	width: 300px;
+	order: -1;
+}
+.pravy{
+	flex-shrink: 0;
+	width:250px;
+}
